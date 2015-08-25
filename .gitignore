@@ -1,0 +1,12 @@
+*.pyc
+*tmp*
+*sublime*
+.idea
+.coverage
+.tox
+*~
+*.log
+*.mo
+.DS_Store
+venv*/*
+dv.sqlite3

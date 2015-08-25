@@ -1,0 +1,4 @@
+include README.md
+include LICENCE.txt
+recursive-include restframework_writable_nested/static *
+recursive-include restframework_writable_nested/templates *
