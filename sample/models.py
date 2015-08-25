@@ -16,7 +16,7 @@ class Human(models.Model):
 class Pet(models.Model):
 
     name = models.CharField(max_length=100)
-    ownner = models.ForeignKey(Human, related_name='pets')
+    owner = models.ForeignKey(Human, related_name='pets')
 
     class Meta:
         verbose_name = "Pet"
