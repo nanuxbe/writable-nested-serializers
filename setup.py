@@ -16,7 +16,7 @@ setup(
     description='Package description',
     long_description=README,
     url='<package homepage>',
-    author='<your name>',
+    author='Tom Christie',
     author_email='<your email>',
     classifiers=[
         'Environment :: Web Environment',
@@ -32,5 +32,5 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
-    install_requires=['Django>=1.8', ]
+    install_requires=['Django>=1.8.4', 'djangorestframework>=3.2.3', ],
 )

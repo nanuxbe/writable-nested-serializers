@@ -9,4 +9,4 @@
 *.mo
 .DS_Store
 venv*/*
-dv.sqlite3
+db.sqlite3
